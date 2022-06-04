@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  padding: 0;
+
   background-color: white;
   
 }
@@ -11,11 +13,39 @@ nav {
   justify-content: space-between;
 }
 
+.logo {
+  display: flex;
+}
+
+.logo h3 {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
 .menu ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.menu, .contact {
+  padding-top: 20px;
+}
+
+#header {
+  background-image:url("../Images/me.png");
+  background-size:cover ;
+  height: 100vh;
 }
 
 .header {
-  width: 100%;
+  display: flex;
+  margin-top: 200px;
+  position: absolute;
+  justify-content: space-between;
 }

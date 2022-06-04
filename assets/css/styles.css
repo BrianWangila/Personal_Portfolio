@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  background-color: white;
+  
+}
+
+nav {
+  display: flex;
+  margin-top: 2em;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header {
+  width: 100%;
+}

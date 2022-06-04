@@ -23,7 +23,6 @@ button {
 nav {
   display: flex;
   margin-top: 2em;
-  width: 100%;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
@@ -31,6 +30,7 @@ nav {
 
 .logo {
   display: flex;
+  margin-left: 20px;
 }
 
 .logo h3 {
@@ -266,3 +266,39 @@ nav {
   padding: 15px;
 }
 
+.aboutMe {
+  border: 2px solid grey;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  width: 40vw;
+  height: 150px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutMe h3, .aboutMe button {
+  margin: auto;
+  max-width: 400px;
+  
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(56, 53, 53);
+  color: white;
+  height: 20vh;
+}
+
+.socials ul > li {
+  display: inline-block;
+  border: 2px solid red;
+  margin-right: 20px;
+  margin-left: 10px;
+}

@@ -140,10 +140,56 @@ nav {
 
 .row {
   display: flex;
+  justify-content: center;
   
 }
 
 .pictures img {
-  height: 200px;
-  width: 200px;
+  /* height: 250px;
+  width: 270px; */
+  height: 35vh;
+  width: 23vw;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.quotes h2 {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.quotesFamous {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.quotesFamous img {
+  width: 27vw;
+  border-radius: 25px 20px;
+
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #d3cddb ;
+  margin: 25px -2px 25px;
+  border-radius: 0 20px 25px 0;
+  padding: 20px;
+}
+
+.quote p {
+  margin-bottom: 10px;
+
+}
+
+.quote span {
+  color: rgb(23, 23, 155);
+  font-weight: 600;
 }

@@ -27,7 +27,6 @@ nav {
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
-  border: 1px solid red;
 }
 
 .logo {
@@ -74,7 +73,6 @@ nav {
 }
 
 .prof{
-  border: 1px solid blue;
   display: flex;
   width: 95vw;
   margin: auto;
@@ -82,7 +80,6 @@ nav {
 }
 
 .prof >.left {
-  border: 2px solid red;
   width: 100vw;
   padding: 15px;
 
@@ -98,11 +95,11 @@ nav {
 }
 
 .prof >.right {
-  border: 2px solid red;
   padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 50px;
 }
 
 .right button, .right a {
@@ -119,6 +116,34 @@ nav {
 
 .title {
   text-align: center;
-  margin: 30px;
-  padding: 20px;
+  margin: 30px 30px 5px 30px;
+  padding: 20px 20px 5px;
+}
+
+.navbar ul > li {
+  display: inline-block;
+  margin: 15px 15px 3px;
+  font-size: small;
+} 
+
+.projects hr{
+  margin: auto;  
+  margin-bottom: 25px;
+  max-width: 300px;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  
+}
+
+.pictures img {
+  height: 200px;
+  width: 200px;
 }

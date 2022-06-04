@@ -1,6 +1,15 @@
 * {
   margin: 0;
-  padding: 0;  
+  padding: 0; 
+}
+body{
+  /* background-color: #383535; */
+}
+.body{
+  width: 90vw;
+  border: 2px solid red;
+  margin: auto;
+  background-color: white;
 }
 
 h2 {
@@ -36,6 +45,7 @@ nav {
 .logo h3 {
   display: flex;
   align-items: center;
+  margin-left: 10px;
 }
 
 .logo img {
@@ -54,14 +64,12 @@ nav {
 }
 
 #header {
-  background-image:url("../Images/me.png");
-  background-size:cover ;
-  height: 100vh;
+  
 }
 
 .header {
   display: flex;
-  position: absolute;
+  position: relative;
   justify-content: center;
   margin-top: 30px;
   margin-left: 17vw;
@@ -74,7 +82,7 @@ nav {
 
 .prof{
   display: flex;
-  width: 95vw;
+  /* width: 95vw; */
   margin: auto;
   margin-top: 30px;
 }
@@ -86,12 +94,13 @@ nav {
 }
 
 .left .cat {
-  border: 1px solid grey;
+  border: 1px solid #d3cddb;
   margin-top: 10px;
   border-radius: 5px;
-  background-color: rgb(223, 206, 206);
+  background-color: #eae7ee;;
   padding: 5px;
   padding-top:10px ;
+  width: 40vw;
 }
 
 .prof >.right {
@@ -221,7 +230,7 @@ nav {
 .slides .one {
   width: 220px;
   margin: 10px;
-  background-color: #d3cddb;
+  background-color: #eae7ee;;
   border-radius: 20px;
 
 }
@@ -267,7 +276,7 @@ nav {
 }
 
 .aboutMe {
-  border: 2px solid grey;
+  border: 3px solid #d3cddb;
   margin: auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -291,7 +300,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(56, 53, 53);
+  background-color: #383535;
   color: white;
   height: 20vh;
 }

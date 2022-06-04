@@ -1,9 +1,23 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0;  
+}
 
-  /* background-color: white; */
-  
+h2 {
+  font-size: 2em;
+}
+
+button {
+  background-color: rgb(248, 68, 68);
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 nav {
@@ -96,6 +110,15 @@ nav {
   margin-right: 20px;
   padding: 10px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
+.right p {
+  margin-top: 10px;
+}
+
+.title {
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+}

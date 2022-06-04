@@ -7,10 +7,32 @@ body{
 }
 .body{
   width: 90vw;
-  border: 2px solid red;
+  border: 2px solid #1d1c1c;
+  border-bottom: none;
   margin: auto;
   background-color: white;
 }
+
+.headers {
+  background-color: #1d1c1c;
+  height: 80vh;
+  color: white;
+
+}
+
+a {
+  background-color: #eae7ee;
+  border-radius: 15px;
+  padding-left: 200px;
+  border: 2px solid #d3cddb;
+  color: #0202a1;
+}
+
+a:hover {
+  background-color: #777080;
+  border: 1px solid #1c1cf1;
+  color: #211235;
+} 
 
 h2 {
   font-size: 2em;
@@ -31,7 +53,7 @@ button {
 
 nav {
   display: flex;
-  margin-top: 2em;
+  padding-top: 2em;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
@@ -63,44 +85,37 @@ nav {
   padding-top: 20px;
 }
 
-#header {
-  
-}
-
 .header {
   display: flex;
-  position: relative;
   justify-content: center;
-  margin-top: 30px;
-  margin-left: 17vw;
+  align-items: center;
 }
 
-.header .full {
-  margin-left: 300px;
-  margin-top: 50px;
+.header img {
+  height: 60vh;
 }
 
 .prof{
   display: flex;
-  /* width: 95vw; */
   margin: auto;
   margin-top: 30px;
+  width: 90vw;
 }
 
 .prof >.left {
-  width: 100vw;
+  width: 50vw;
   padding: 15px;
 
 }
 
 .left .cat {
   border: 1px solid #d3cddb;
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 5px;
   background-color: #eae7ee;;
   padding: 5px;
   padding-top:10px ;
-  width: 40vw;
+  width: 35vw;
 }
 
 .prof >.right {
@@ -108,7 +123,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .right button, .right a {
@@ -121,6 +136,10 @@ nav {
 
 .right p {
   margin-top: 10px;
+}
+
+.right .resume {
+  display: flex;
 }
 
 .title {
@@ -138,7 +157,7 @@ nav {
 .projects hr{
   margin: auto;  
   margin-bottom: 25px;
-  max-width: 300px;
+  max-width: 230px;
 
 }
 
@@ -154,9 +173,7 @@ nav {
 }
 
 .pictures img {
-  /* height: 250px;
-  width: 270px; */
-  height: 35vh;
+  /* height: 35vh; */
   width: 23vw;
   margin: 10px;
   border-radius: 20px;
@@ -187,7 +204,8 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid #d3cddb ;
+  border: 2px solid #d3cddb;
+  border-left: none;
   margin: 25px -2px 25px;
   border-radius: 0 20px 25px 0;
   padding: 20px;
@@ -274,12 +292,14 @@ nav {
   margin-top: 2px;
   padding: 15px;
 }
+.about {
+  padding-bottom: 40px;
+}
 
 .aboutMe {
   border: 3px solid #d3cddb;
   margin: auto;
   margin-top: 40px;
-  margin-bottom: 40px;
   padding: 20px;
   width: 40vw;
   height: 150px;
@@ -300,7 +320,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #383535;
+  background-color: #1d1c1c;
   color: white;
   height: 20vh;
 }

@@ -20,10 +20,6 @@
 
 }
 
-form input {
-  padding: ;
-}
-
 .right a {
   background-color: #eae7ee;
   border-radius: 15px;
@@ -42,7 +38,7 @@ h2 {
   font-size: 2em;
 }
 
-#contact {
+#contact, .resume button, .join button, .aboutMe button {
   background-color: #f84444;
   font-size: 15px;
   color: white;
@@ -61,7 +57,7 @@ h2 {
   right: 100px;
   background-color: #eae7ee;
   color: rgb(212, 20, 20);
-  font-size: 18px;
+  font-size: 20px;
   padding: 5px;
   border-radius: 10px;
   font-weight: 700;

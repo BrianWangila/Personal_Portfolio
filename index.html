@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Nunito&family=Poppins&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/327b6324f1.js" crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="./assets/js/index.js" type="text/javascript"></script>
   <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
   <title>Brian Wangila</title>
@@ -35,8 +36,13 @@
           <div>
            <button onclick="openForm()"><a href="tel:+254701850860"><i class="fas fa-phone"></i></a></button>
           </div>
-          <button id="contact" name="contactMe">Contact Me</button>
+          <button id="contact" onclick="sendEmail()"><!--<a href="mailto:bwanjalah@gmail.com"></a>-->Contact Me</button>
         </div>
+
+        <!-- <textarea id="myText">
+          Lorem ipsum...
+        </textarea>
+      <button onclick="sendMail(); return false">Send</button> -->
 
         <div class="call" id="call"></div> <!-- pop-up number -->
       </nav>
@@ -47,7 +53,7 @@
           <h1>BRIAN <br> <span>WANGILA</span></h1>
         </div>
         <div class="image">
-          <img src="./assets/Images/me3.jpg" alt="">
+          <img src="./assets/Images/me.jpg" alt="">
         </div>
         <div class="brian2">
           <h1>FULL<span>STACK</span> <br> <span>DEV</span>ELOPER</h1>

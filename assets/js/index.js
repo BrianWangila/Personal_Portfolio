@@ -2,12 +2,19 @@
 
 //create a pop up number display
 function openForm() {
-  document.getElementById('call').innerHTML = "0701 850 860";
+  const call = document.getElementById('call')
+  call.innerHTML = "0701 850 860";
 }
 
-// function closeForm() {
-//   document.getElementById("call").style.display = "none";
-// }
+
+
+
+
+
+
+
+
+
 
 // function openForm () {
 //   const calling = document.getElementById("call");

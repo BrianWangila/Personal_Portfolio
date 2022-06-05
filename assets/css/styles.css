@@ -20,6 +20,29 @@
 
 }
 
+/* .email {
+  position: absolute;
+  background-color: #1d1c1c;
+  border: 2px solid #d3cddb;
+  width: 15vw;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  margin-right: 0px;
+  margin-top: 0;
+  /* margin-left: 200px; */
+
+/* form {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #d3cddb;
+} */
+
+form input {
+  padding: ;
+}
+
 a {
   background-color: #eae7ee;
   border-radius: 15px;

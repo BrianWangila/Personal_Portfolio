@@ -2,10 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
+  font-family: "Nunito";
 }
-body{
-  /* background-color: #383535; */
-}
+
 .body{
   width: 90vw;
   border: 2px solid #1d1c1c;
@@ -40,7 +39,7 @@ h2 {
 }
 
 button {
-  background-color: rgb(248, 68, 68);
+  background-color: #f84444;
   font-size: 15px;
   color: white;
   font-weight: 700;
@@ -69,11 +68,13 @@ nav {
   display: flex;
   align-items: center;
   margin-left: 10px;
+  font-size: larger;
 }
 
 .logo img {
   height: 80px;
   width: 80px;
+  border-radius: 10px;
 }
 
 .menu ul li {
@@ -82,8 +83,23 @@ nav {
   margin-left: 20px;
 }
 
+.menu hr {
+  margin-top: 7px;
+}
+
+.contact i {
+  margin-right: 30px;
+  color: #f84444;
+  font-size: 25px;
+}
+
 .menu, .contact {
   padding-top: 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
 }
 
 .header {
@@ -138,10 +154,6 @@ nav {
   padding: 5px;
   padding-top:10px ;
   width: 35vw;
-}
-
-.left .cat1 {
-  
 }
 
 .prof >.right {
@@ -242,11 +254,19 @@ nav {
   flex-direction: column;
   padding-top: 50px;
   align-items: flex-end;
+  margin-right: 20px;
 
 }
 
+.quote i {
+  font-size: 50px;
+  color: #1c1cf1;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
 .quote span {
-  color: rgb(23, 23, 155);
+  color: #1c1cf1;
   font-weight: 600;
 }
 
@@ -331,7 +351,7 @@ nav {
   margin-top: 40px;
   padding: 20px;
   width: 40vw;
-  height: 150px;
+  height: 200px;
   border-radius: 20px;
   text-align: center;
   display: flex;
@@ -354,9 +374,17 @@ footer {
   height: 20vh;
 }
 
+footer i {
+  text-align: center;
+  font-size: 25px;
+}
+
 .socials ul > li {
   display: inline-block;
-  border: 2px solid red;
-  margin-right: 20px;
+  margin-right: 30px;
   margin-left: 10px;
+}
+
+.socials ul {
+  margin-right: 30px;
 }

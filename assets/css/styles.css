@@ -20,25 +20,6 @@
 
 }
 
-/* .email {
-  position: absolute;
-  background-color: #1d1c1c;
-  border: 2px solid #d3cddb;
-  width: 15vw;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  margin-right: 0px;
-  margin-top: 0;
-  /* margin-left: 200px; */
-
-/* form {
-  text-align: center;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #d3cddb;
-} */
-
 form input {
   padding: ;
 }
@@ -61,7 +42,7 @@ h2 {
   font-size: 2em;
 }
 
-button {
+#contact {
   background-color: #f84444;
   font-size: 15px;
   color: white;
@@ -75,10 +56,9 @@ button {
 }
 
 .call {
-  visibility: ;
   position: absolute;
   top: 20px;
-  right: 200px;
+  right: 100px;
   background-color: #eae7ee;
   color: rgb(212, 20, 20);
   font-size: 18px;

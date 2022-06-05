@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Nunito&family=Poppins&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/327b6324f1.js" crossorigin="anonymous"></script>
-  <script src="./assets/js/index.js" type="text/js"></script>
+  <script src="./assets/js/index.js" type="text/javascript"></script>
   <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
   <title>Brian Wangila</title>
 </head>
@@ -32,27 +32,14 @@
         </div>
 
         <div class="contact">
-          <div class="phone">
-          <a href="tel:+254701850860"><i class="fas fa-phone"> </i></a>
+          <div class="phone" id="phone">
+           <button onclick="openForm()"><a href="tel:+254701850860"><i class="fas fa-phone"> </i></a></button>
           </div>
           <button id="contact" name="contactMe">Contact Me</button>
         </div>
 
-        <div class="call" id="call">
-          <P>0701 850 860</P>
-        </div>
+        <div class="call" id="call"></div> <!-- pop-up number -->
       </nav>
-
-      <!-- <div class="email">
-        <h3>E-mail Brian Wangila</h3>
-        <form action="mailto:bwanjalah@gmail.com" method="post" enctype="text/plain">
-        <input type="text" name="name" placeholder="Name"><br>
-        <input type="text" name="mail" placeholder="Email address"><br>
-        <textarea type="text" name="comment"> </textarea><br><br>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
-        </form>
-      </div> -->
 
       <!-- header section -->
       <section class="header" id="header">

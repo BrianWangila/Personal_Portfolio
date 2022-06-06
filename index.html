@@ -1,254 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Nunito&family=Poppins&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/327b6324f1.js" crossorigin="anonymous"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script src="./assets/js/index.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
-  <title>Brian Wangila</title>
-</head>
-<ect>
-  <section class="body">
-    <section class="headers" id="home">
-      <!-- navigation section -->
-      <nav>
-        <div class="logo">
-          <a href="#home"><img src="./assets/Images/logo.png" alt="logo"></a>
-          <h3>BRIAN</h3>
-        </div>
-
-        <div class="menu">
-          <ul>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#motivation">Motivation</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#aboutMe">About Me</a></li>
-          </ul>
-          <hr>
-        </div>
-
-        <div class="contact">
-          <div>
-           <button onclick="openForm()"><a href="tel:+254701850860"><i class="fas fa-phone"></i></a></button>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Nunito&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/327b6324f1.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./assets/js/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
+    <title>Brian Wangila</title>
+  </head>
+  <body>
+    <section class="body">
+      <section class="headers" id="home">
+        <!-- navigation section -->
+        <nav>
+          <div class="logo">
+            <a href="#home"><img src="./assets/Images/logo.png" alt="logo"></a>
+            <h3>BRIAN</h3>
           </div>
-          <button id="contact" onclick="sendEmail()"><!--<a href="mailto:bwanjalah@gmail.com"></a>-->Contact Me</button>
+
+          <div class="menu">
+            <ul>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#motivation">Motivation</a></li>
+              <li><a href="#hobbies">Hobbies</a></li>
+              <li><a href="#aboutMe">About Me</a></li>
+            </ul>
+            <hr>
+          </div>
+
+          <div class="contact">
+            <div>
+            <button onclick="openForm()"><a href="tel:+254701850860"><i class="fas fa-phone"></i></a></button>
+            </div>
+            <button id="contact" onclick="sendEmail()">Contact Me</button>
+          </div>
+
+          <div class="call" id="call"></div> <!-- pop-up number -->
+        </nav>
+
+        <!-- header section -->
+        <section class="header">
+          <div class="brian">
+            <h1>BRIAN <br> <span>WANGILA</span></h1>
+          </div>
+          <div class="image">
+            <img src="./assets/Images/me.jpg" alt="">
+          </div>
+          <div class="brian2">
+            <h1>FULL<span>STACK</span> <br> <span>DEV</span>ELOPER</h1>
+          </div>
+        </section>
+      </section>
+
+      <!-- professional details -->
+      <section class="prof" id="skills">
+
+        <!-- left side -->
+        <div class="left">
+          <div class="cat cat1">
+            <i class="fab fa-chrome"></i>
+            <div>
+              <h4>Web Development</h4>
+              <p>I'm the person to call when you need that website up and running.</p>
+            </div>
+          </div>
+
+          <div class="cat">
+            <i class="fas fa-robot"></i>
+            <div>
+              <h4>Android Development</h4>
+              <p>The only android feature I can't create is 'nothing'. 
+                Try me and you won't be disappointed.</p>
+            </div>
+          </div>
+
+          <div class="cat">
+            <i class="fas fa-cloud-download-alt"></i>
+            <div>
+              <h4>Cloud Architecture</h4>
+              <p>I have more thatn 3 years of experience in cloud computing and architecture. 
+                I'm the person to migrate yand manage your data on the cloud.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <!-- <textarea id="myText">
-          Lorem ipsum...
-        </textarea>
-      <button onclick="sendMail(); return false">Send</button> -->
+        <!-- right side -->
+        <div class="right">
+          <div class="whyMe">
+            <h2>Why Hire Me for Your <br> Next Project?</h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Totam tempora quam nihil, provident doloremque adipisci 
+            sint tempore neque harum accusamus, amet maxime suscipit</p>
 
-        <div class="call" id="call"></div> <!-- pop-up number -->
-      </nav>
+          <div class="resume">
+            <button> Download Resume</button>
+            <a href="https://github.com/BrianWangila" target="_blank">GitHub Profile</a>
+            <a href="https://linkedin.com/in/brian-w-wangila" target="_blank">LinkedIn Profile</a>
+          </div>
+        </div>
+        
+      </section>
 
-      <!-- header section -->
-      <section class="header">
-        <div class="brian">
-          <h1>BRIAN <br> <span>WANGILA</span></h1>
+      <div class="title" id="portfolio">
+        <h2>My Creative, & <br> Professional Works</h2>
+      </div>
+
+      <section class="projects" id="portfolio">
+        <!-- My work projects-->
+        <navbar class="navbar">
+          <ul>
+            <!-- <li>ALL</li> -->
+            <li>WEB</li>
+            <li>ANDROID</li>
+            <li>CLOUD</li>
+          </ul>
+        </navbar>
+        <hr>
+        <div class="pictures">
+          <div class="row">
+            <img src="./assets/Images/android.jpg" alt="android">
+            <img src="./assets/Images/cloud.png" alt="cloud">
+            <img src="./assets/Images/web1.png" alt="web">
+          </div>
+          
+          <div class="row">
+            <img src="./assets/Images/android1.png" alt="android">
+            <img src="./assets/Images/cloud1.jpeg" alt="cloud">
+            <img src="./assets/Images/webDev.jpeg" alt="web">
+          </div>
         </div>
-        <div class="image">
-          <img src="./assets/Images/me.jpg" alt="">
+      </section>
+      
+      <!-- Famous Quotes-->
+      <section class="quotes" id="motivation">
+        <h2>My Say!</h2>
+        <div class="quotesFamous">
+          <img src="./assets/Images/me2.png" alt="Brian">
+          <div class="quote">
+            <i class="fas fa-quote-right"></i>
+            <p>
+              If you think that you're too small to be effective, you've never
+              been in the dark with a mosquito. You can achieve anything you put
+              mind on - as long as you keep moving FORWARD.
+            </p>
+              <div class="name">
+                <p><span>Brian Wanjala</span> <br>
+                Founder of <span>Ravvytek Solutions</span></p>
+              </div>
+          </div>
         </div>
-        <div class="brian2">
-          <h1>FULL<span>STACK</span> <br> <span>DEV</span>ELOPER</h1>
+      </section>
+
+      <!-- Hobbies -->
+      <section class="hobbies" id="hobbies">
+        <div class="head">
+          <h3>Work Without Play...</h3>
+          <p>We all have to relax our minds after a long and productive week</p>
+          <div class="join">
+            <button onclick="funMail()">Join the Club</button>
+          </div>
+        </div>
+
+        <div class="slides">
+          <div class="one">
+            <img src="./assets/Images/mountain.jpg" alt="hiking">
+            <div class="text">
+              <h5>Hiking</h5>
+              <p>Mountain climbing and hiking in long forests is the best way to unclog my mind</p>
+            </div>
+          </div>
+
+          <div class="one">
+            <img src="./assets/Images/drinking.webp" alt="friends">
+            <div class="text">
+              <h5>Friends</h5>
+              <p>Friends keep us going. Why not spare a drink or two in their honor</p>
+            </div>
+          </div>
+
+          <div class="one">
+            <img src="./assets/Images/ziplining.jpeg" alt="zip Lining">
+            <div class="text">
+              <h5>Zip Lining</h5>
+              <p>Who doesn't like a darign a dangerous zip lining after a month's long project?</p>
+            </div>
+          </div>
+
+          <div class="one">
+            <img src="./assets/Images/roadTrips.jpg" alt="Road trip">
+            <div class="text">
+              <h5>Road Trip</h5>
+              <p>It's true what they say: "the journey is the fun part." What about a trip to nowhere? lol.</p>
+            </div>
+          </div>
+
+          <div class="one">
+            <img src="./assets/Images/watchingReading.jpeg" alt="reading">
+            <div class="text">
+              <h5>Books & Movies</h5>
+              <p>Instead of trying to decide, why not be 'Switzerland' and try both? It works for me when I have to relax on my own.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About me -->
+      <section class="about" id="aboutMe">
+        <div class="aboutMe">
+          <h3>I'm always dedicated and consistently strive to go a mile further. Try Me!</h3>
+          <button onclick="sendEmail()">Contact Me</button>
         </div>
       </section>
     </section>
 
-  <!-- <section class="body"> -->
-
-    <!-- professional details -->
-    <section class="prof" id="skills">
-
-      <!-- left side -->
-      <div class="left">
-        <div class="cat cat1">
-          <i class="fab fa-chrome"></i>
-          <div>
-            <h4>Web Development</h4>
-            <p>I'm the person to call when you need that website up and running.</p>
-          </div>
-        </div>
-
-        <div class="cat">
-          <i class="fas fa-robot"></i>
-          <div>
-            <h4>Android Development</h4>
-            <p>The only android feature I can't create is 'nothing'. 
-              Try me and you won't be disappointed.</p>
-          </div>
-        </div>
-
-        <div class="cat">
-          <i class="fas fa-cloud-download-alt"></i>
-          <div>
-            <h4>Cloud Architecture</h4>
-            <p>I have more thatn 3 years of experience in cloud computing and architecture. 
-              I'm the person to migrate yand manage your data on the cloud.
-            </p>
-          </div>
-        </div>
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="logo">
+        <img src="./assets/Images/logo1.png" alt="logo">
+        <h3>BRIAN</h3>
       </div>
 
-      <!-- right side -->
-      <div class="right">
-        <div class="whyMe">
-          <h2>Why Hire Me for Your <br> Next Project?</h2>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Totam tempora quam nihil, provident doloremque adipisci 
-          sint tempore neque harum accusamus, amet maxime suscipit</p>
-
-        <div class="resume">
-          <button> Download Resume</button>
-          <a href="https://github.com/BrianWangila" target="_blank">GitHub Profile</a>
-          <a href="https://linkedin.com/in/brian-w-wangila" target="_blank">LinkedIn Profile</a>
-        </div>
+      <div class="copy">
+        <p>&copy;Copyright 2022. Designed by BrianWangila</p>
       </div>
-      
-    </section>
 
-    <div class="title" id="portfolio">
-      <h2>My Creative, & <br> Professional Works</h2>
-    </div>
-
-    <section class="projects" id="portfolio">
-      <!-- My work projects-->
-      <navbar class="navbar">
+      <div class="socials">
         <ul>
-          <!-- <li>ALL</li> -->
-          <li>WEB</li>
-          <li>ANDROID</li>
-          <li>CLOUD</li>
+          <li><a href="https://linkedin.com/in/brian-w-wangila" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://github.com/BrianWangila" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://facebook.com/wanjala.brian01" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/RavyRyann" target="_blank"><i class="fab fa-twitter"></i></a></li>
         </ul>
-      </navbar>
-      <hr>
-      <div class="pictures">
-        <div class="row">
-          <img src="./assets/Images/android.jpg" alt="android">
-          <img src="./assets/Images/cloud.png" alt="cloud">
-          <img src="./assets/Images/web1.png" alt="web">
-        </div>
+
         
-        <div class="row">
-          <img src="./assets/Images/android1.png" alt="android">
-          <img src="./assets/Images/cloud1.jpeg" alt="cloud">
-          <img src="./assets/Images/webDev.jpeg" alt="web">
-        </div>
+        
+        
       </div>
-    </section>
-    
-    <!-- Famous Quotes-->
-    <section class="quotes" id="motivation">
-      <h2>My Say!</h2>
-      <div class="quotesFamous">
-        <img src="./assets/Images/me2.png" alt="Brian">
-        <div class="quote">
-          <i class="fas fa-quote-right"></i>
-          <p>
-            If you think that you're too small to be effective, you've never
-            been in the dark with a mosquito. You can achieve anything you put
-            mind on - as long as you keep moving FORWARD.
-          </p>
-            <div class="name">
-              <p><span>Brian Wanjala</span> <br>
-              Founder of <span>Ravvytek Solutions</span></p>
-            </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Hobbies -->
-    <section class="hobbies" id="hobbies">
-      <div class="head">
-        <h3>Work Without Play...</h3>
-        <p>We all have to relax our minds after a long and productive week</p>
-        <div class="join">
-          <button onclick="funMail()">Join the Club</button>
-        </div>
-      </div>
-
-      <div class="slides">
-        <div class="one">
-          <img src="./assets/Images/mountain.jpg" alt="hiking">
-          <div class="text">
-            <h5>Hiking</h5>
-            <p>Mountain climbing and hiking in long forests is the best way to unclog my mind</p>
-          </div>
-        </div>
-
-        <div class="one">
-          <img src="./assets/Images/drinking.webp" alt="friends">
-          <div class="text">
-            <h5>Friends</h5>
-            <p>Friends keep us going. Why not spare a drink or two in their honor</p>
-          </div>
-        </div>
-
-        <div class="one">
-          <img src="./assets/Images/ziplining.jpeg" alt="zip Lining">
-          <div class="text">
-            <h5>Zip Lining</h5>
-            <p>Who doesn't like a darign a dangerous zip lining after a month's long project?</p>
-          </div>
-        </div>
-
-        <div class="one">
-          <img src="./assets/Images/roadTrips.jpg" alt="Road trip">
-          <div class="text">
-            <h5>Road Trip</h5>
-            <p>It's true what they say: "the journey is the fun part." What about a trip to nowhere? lol.</p>
-          </div>
-        </div>
-
-        <div class="one">
-          <img src="./assets/Images/watchingReading.jpeg" alt="reading">
-          <div class="text">
-            <h5>Books & Movies</h5>
-            <p>Instead of trying to decide, why not be 'Switzerland' and try both? It works for me when I have to relax on my own.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About me -->
-    <section class="about" id="aboutMe">
-      <div class="aboutMe">
-        <h3>I'm always dedicated and consistently strive to go a mile further. Try Me!</h3>
-        <button onclick="sendEmail()">Contact Me</button>
-      </div>
-    </section>
-  </section>
-
-  <!-- footer section -->
-  <footer class="footer">
-    <div class="logo">
-      <img src="./assets/Images/logo1.png" alt="logo">
-      <h3>BRIAN</h3>
-    </div>
-
-    <div class="copy">
-      <p>&copy;Copyright 2022. Designed by BrianWangila</p>
-    </div>
-
-    <div class="socials">
-      <ul>
-        <li><a href="https://linkedin.com/in/brian-w-wangila" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="https://github.com/BrianWangila" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://facebook.com/wanjala.brian01" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="https://twitter.com/RavyRyann" target="_blank"><i class="fab fa-twitter"></i></a></li>
-      </ul>
-
-      
-      
-      
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>

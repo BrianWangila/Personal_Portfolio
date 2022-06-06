@@ -161,7 +161,7 @@ nav {
 
 .header img {
   height: 60vh;
-  width: 400px;
+  width: 30vw;
   border-radius: 15px;
 }
 
@@ -275,14 +275,15 @@ nav {
 .quotesFamous {
   display: flex;
   justify-content: center;
-  width: 70vw;
+  width: 75vw;
   margin: auto;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
 .quotesFamous img {
-  width: 27vw;
+  width: 28vw;
+  height: 70vh;
   border-radius: 25px 20px;
 
 }
@@ -328,8 +329,10 @@ nav {
 }
 
 .slides {
+  box-sizing: inherit;
   display: flex;
   max-width: 100vw;
+  height: 60vh;
   overflow-x: scroll;}
 
 .slides img {
@@ -400,7 +403,7 @@ nav {
   margin-top: 40px;
   padding: 20px;
   width: 40vw;
-  height: 200px;
+  height: 30vh;
   border-radius: 20px;
   text-align: center;
   display: flex;
@@ -410,7 +413,7 @@ nav {
 
 .aboutMe h3, .aboutMe button {
   margin: auto;
-  max-width: 400px;
+  max-width: 30vw;
   
 }
 

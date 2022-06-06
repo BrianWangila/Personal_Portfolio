@@ -114,6 +114,11 @@ nav {
   padding-top: 20px;
 }
 
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
 .contact {
   display: flex;
   align-items: center;

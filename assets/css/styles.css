@@ -119,6 +119,11 @@ nav {
   color: white;
 }
 
+.menu a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 .contact {
   display: flex;
   align-items: center;
